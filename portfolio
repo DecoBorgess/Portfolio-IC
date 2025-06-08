@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTIFÓLIO ANDRÉ BORGES VIANA</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo"></a>
+    </nav>
+
+    <section class="home">
+        <div class="home-info">
+            <h1>André Borges Viana</h1>
+            <h2>Estudante de Ciência da Computação na CESAR School</h2>
+        </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="home.png" alt="Minha foto" width="300">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2>Projetos</h2>
+        <div class="project-list">
+            <div class="project-card">
+                <h3>1.TechDesign</h3>
+                <p>Eu e meu grupo fizemos um jogo para deficientes auditivos chamado Corrida de Sinais. É um jogo de tabuleiro que possui 1 led vermelho, 1 led verde, 1 Arduino Uno e 1 Leitor RFID. Segue uma foto do projeto</p>
+                <div>
+                    <img src="CorridaDeSinais.png" alt="Jogo Corrida de Sinais" width="400">
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>2.Jogo "O Mistério da Luz"</h3>
+                <p>Na plataforma Bitsy , fiz um jogo curto e de tema mistério chamado O Mistério da Luz.</p>
+                <div>
+                    <img src="bitsy1.png" alt="" width="400" src>
+                    <img src="bitsy2.png" alt="" width="400" src>
+                    <img src="bitsy3.png" alt="" width="400" src>
+                    <img src="bitsy4.png" alt="" width="400" src>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contato</h2>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/andr%C3%A9-borges-viana-5065a7368/" target="_blank">/in/AndreBorges</a></p>
+        <p>GitHub: <a href="https://github.com/DecoBorgess" target="_blank">github.com/DecoBorges</a></p>
+    </section>
+</body>
+</html>
